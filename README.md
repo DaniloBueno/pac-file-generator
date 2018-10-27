@@ -36,7 +36,7 @@ node index.js
 ```
 
 ## Considerations
-* Your EC2 Instances should have tag "Name"
+* Your EC2 instances should have tag "Name"
 * Your local .pem key should have the same name of the repective EC2 instance key
 * Only fetches EC2 instances with state "running"
 * SSH user is always "ec2-user"
