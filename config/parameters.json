@@ -1,0 +1,22 @@
+{
+  "aws": {
+    "region": "",
+    "accessKey": "",
+    "secretKey": "",
+    "describeInstancesParams": {
+      "Filters": [
+        {
+          "Name": "instance-state-name",
+          "Values": [
+            "running"
+          ]
+        }
+      ],
+      "MaxResults": 50
+    }
+  },
+  "paths": {
+    "output": "./output/",
+    "keys": ""
+  }
+}
